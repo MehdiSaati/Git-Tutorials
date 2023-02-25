@@ -158,7 +158,7 @@ $   git push origin -delete <master>  or <your_branch_name>
 
 ---
 <a name="chapter2">
-<h1>Chapter 1 -  How to get the current branch name in Git ?</h1>
+<h1>Chapter 2 -  How to get the current branch name in Git ?</h1>
 </a>
 
 In this post, we will be learning how to determine or get the name of the current branch in Git.
