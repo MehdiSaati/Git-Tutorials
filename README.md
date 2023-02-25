@@ -2,21 +2,6 @@
 
 Here, We will be learning about how to use Git and many other things like.
 
-1. How to install Git.
-
-2. How to get the current branch name in Git ?
-
-3. How to create a project or repository in Git
-
-4. How to create a branch in a repository.
-
-5. How to check your repository, branch and sub-branch.
-
-6. How to re-initialize repository with another repository.
-
-7. How to merge push and pull your code (project) in GIT.
-
-8. many more things we will be learning in it... as you are able to see in left sidebar, your tutorials continues....
 
 ### Table of contents
 
