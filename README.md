@@ -6,7 +6,7 @@ Here, We will be learning about how to use Git and many other things like.
 ### Table of contents
 
 - [Chapter 1 - How to download or install Git](#chapter1)
-- [Chapter 2 - How to setup Git and Sign Up and SingIn](#chapter2)
+- [Chapter 2 - How to get the current branch name in Git ?](#chapter2)
 - [Chapter 3 - How to create a project or repository in Git](#chapter3)
 - [Chapter 4 - How to create a branch in a repository.](#chapter4)
 - [Chapter 5 - How to check your repository, branch and sub-branch.](#chapter5)
