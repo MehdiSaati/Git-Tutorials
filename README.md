@@ -4,7 +4,7 @@ Here, We will be learning about how to use Git and many other things like.
 
 1. How to install Git.
 
-2. How to setup Git and Sign Up and SingIn
+2. How to get the current branch name in Git ?
 
 3. How to create a project or repository in Git
 
