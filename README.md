@@ -155,3 +155,63 @@ $   git clone -b <branch_name> <remote_repo>
 ```
 $   git push origin -delete <master>  or <your_branch_name>
 ```
+
+---
+<a name="chapter2">
+<h1>Chapter 1 -  How to get the current branch name in Git ?</h1>
+</a>
+
+In this post, we will be learning how to determine or get the name of the current branch in Git.
+
+So, there are several ways to get the name of the current branch in Git:
+
+Method 1: git branch with no arguments displays the Current branch marked with an asterisk (*) in front of it:
+
+Command: 
+```
+$ git branch
+```
+after typing the above command you will get the following result:
+```
+HP@HP-PC MINGW64 /c/xampp/htdocs/project
+$ git branch
+* your_branch_name
+```
+Method 2: We will show the current branch name directly without any argument by using the following command:
+
+Command:
+```
+$ git branch --show-current
+```
+after typing the above command you will get the following result:
+
+HP@HP-PC MINGW64 /c/xampp/htdocs/project
+```
+$ git branch --show-current
+  your_branch_name
+```
+
+Method 3: this is another method of showing that how to find which git branch I am on, so you will get directly the branch name using the following command:
+
+Command: ( Git 2.22 and above )
+```
+$ git name-rev --name-only HEAD
+```
+after typing the above command you will get the following result:
+
+HP@HP-PC MINGW64 /c/xampp/htdocs/project
+```
+$ git name-rev --name-only HEAD
+  your_branch_name
+```
+
+Method 4: how to see what branch you are on.! so you will get your branch name by the following command:
+```
+$ git rev-parse --abbrev-ref HEAD
+```
+after typing the above command you will get the following result:
+```
+HP@HP-PC MINGW64 /c/xampp/htdocs/project
+$ git rev-parse --abbrev-ref HEAD
+  your_branch_name
+```
