@@ -206,3 +206,46 @@ $ git rev-parse --abbrev-ref HEAD
 <h1>Chapter 3 -  How to create git repository in local and connect to Github, Gitlab, Bitbucket project.</h1>
 </a>
 
+
+How to create git repository in local and connect to Github, Gitlab, Bitbucket project.
+
+
+In this post, we will be learning about how to create a git repository in localhost and connect to gitlab, github project.
+
+Step 1: Let's create a git repository by following command:
+```
+$ git init
+```
+
+Step 2: Let's add our localhost project file into the this git initialized by following command:
+```
+$ git add .
+```
+this above git add . command, which has a dot at last (git add .) where this dot - (.) means all files to added into git init repo.
+
+Step 3: After successfully adding files into git repo, now lets commit the file git commit with the message -m.
+```
+$ git commit -m "First Commit"
+```
+
+Step 4: Now, you have no repository to store or push your local git repository, so go to your Gitlab and create a project example: myproject and let's come to our terminal of your project, let's add the gitlab project repository path in local by following command: 
+```
+$ git remote add origin git@gitlab.com:username/myproject.git
+```
+
+Step 5: After successfully running the above command, you have setup the Git repo and now you can push the files. but before that lets check repository which we added is correct or not.? by the following command:
+```
+$ git remote -v
+```
+Now, you have got your repository result.
+
+Step 6: Finally, we have correctly setup with it and let's push the file into our myproject gitlab repository into our default branch named master  by the following command: 
+
+$ git push origin master
+This last word named master. This is a branch in your gitlab repository. so you have to push the file in your working branch
+```
+Example:
+$ git push origin <master> or <your_branch>
+```
+
+Thanks for reading.
