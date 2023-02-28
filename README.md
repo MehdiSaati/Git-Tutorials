@@ -253,3 +253,51 @@ Thanks for reading.
 <a name="chapter4">
 <h1>Chapter 4 -  How to create a branch in git repository in gitlab using command line.</h1>
 </a>
+ 
+
+
+In this post, we will be learning about how to make a branch in git repository so lets begin with it.
+
+First, we need check that in which repository or branch we are working on it. So to check repository and branch use following commads:
+
+1. To check your git repository name:
+```
+$ git remote -v
+```
+
+2. To check your branch in git repositry: you will be able to see all your branches by following command:
+```
+$ git branch --all
+After checking all the thing that you are in a right git repository and branch, Lets begin with creating a branch in gitlab
+```
+
+
+Step 1: Type the below command to Create a branch in repository in gitlab by following:
+```
+$ git checkout -b your_new_branch
+```
+So, here in this command line -b is the main thing which creates your new branch into the repository.
+
+
+
+Step 2: Check your branch by the above Point 2 command, so that you can be in a correct branch. If you are not into your correct branch, follow the below command:
+
+How to Move or Change from one branch to another branch by following command: 
+```
+$ git checkout your_branch
+```
+
+Step 3: After successfully creating a new branch and moving into your new branch. Let's push your files in new branch by following below commands:
+```
+//To Add all the Files
+$ git add .
+
+// To commit with message
+$ git commit -m "My New Branch Commit"
+
+// To push the file into repo
+$ git push origin your_branch
+```
+
+That's it. You are Done.
+
