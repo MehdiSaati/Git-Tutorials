@@ -301,3 +301,7 @@ $ git push origin your_branch
 
 That's it. You are Done.
 
+---
+<a name="chapter5">
+<h1>Chapter 5 -  How to remove or delete branch from git repository using command line.</h1>
+</a>
