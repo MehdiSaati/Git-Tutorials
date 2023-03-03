@@ -305,3 +305,26 @@ That's it. You are Done.
 <a name="chapter5">
 <h1>Chapter 5 -  How to remove or delete branch from git repository using command line.</h1>
 </a>
+
+
+In this post, we will be learning about how to delete a branch from git repository using command line.
+
+Step 1: Let's check the branch first, which we want to delete the branch from git repository by following: 
+
+Checking the Branch:
+```
+$ git branch --all
+```
+
+
+Step 2: Now, check your correct branch which you want to delete it and lets delete the branch by following command:
+```
+$ git push origin --delete your_branch_name
+```
+In this command --delete is the main code for deleting the branch from your git repository by calling its branch name.
+
+
+
+You are done.
+
+Thanks for reading. 
