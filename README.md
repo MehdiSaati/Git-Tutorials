@@ -328,3 +328,9 @@ In this command --delete is the main code for deleting the branch from your git 
 You are done.
 
 Thanks for reading. 
+
+
+---
+<a name="chapter6">
+<h1>Chapter 6 -  How to clone a git repository using command line.</h1>
+</a>
