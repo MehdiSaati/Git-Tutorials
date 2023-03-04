@@ -334,3 +334,24 @@ Thanks for reading.
 <a name="chapter6">
 <h1>Chapter 6 -  How to clone a git repository using command line.</h1>
 </a>
+
+
+
+In this post, you will be learning how to clone a git repository using command line.
+
+Basically clone git repository means that when you want to download an existing git repository to your local computer or system and can start working on it.
+
+Cloning a repository using the command line
+Go to your git repository and copy the HTTPS repo link and paste in your git clone command as follows:
+
+Syntax:
+```
+$ git clone {repository URL}
+```
+
+Example: 
+```
+$ git clone https://github.com/my-project.git
+```
+
+Thanks for reading.
