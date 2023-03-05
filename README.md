@@ -11,7 +11,7 @@ Here, We will be learning about how to use Git and many other things like.
 - [Chapter 4 - How to create a branch in a repository.](#chapter4)
 - [Chapter 5 - How to remove or delete branch from git repository using command line](#chapter5)
 - [Chapter 6 - How to clone a git repository using command line.](#chapter6)
-- [Chapter 7 - How to merge push and pull your code (project) in GIT.](#chapter7)
+- [Chapter 7 - How to check current git repository name using command line..](#chapter7)
 - [Chapter 8 - many more things we will be learning in it... as you are able to see in left sidebar, your tutorials continues](#chapter8)
  
 
