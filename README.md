@@ -361,3 +361,13 @@ Thanks for reading.
 <a name="chapter7">
 <h1>Chapter 7 -  How to check current git repository name using command line.</h1>
 </a>
+
+In this post, you will be learning how to check the working Git Repository name, by the following command:
+
+Step 1: Check your Git Repository name: 
+```
+$   git remote -v
+```
+you are done.!
+
+Thanks for reading.
