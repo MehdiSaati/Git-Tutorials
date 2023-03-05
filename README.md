@@ -355,3 +355,9 @@ $ git clone https://github.com/my-project.git
 ```
 
 Thanks for reading.
+
+
+---
+<a name="chapter7">
+<h1>Chapter 7 -  How to check current git repository name using command line.</h1>
+</a>
