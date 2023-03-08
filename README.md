@@ -378,3 +378,67 @@ Thanks for reading.
 <h1>Chapter 8 -  How to get all remote branches present in Git repository using command line.</h1>
 </a>
 
+How to check all branches in git
+In this article, we are going to learn about getting or Listing all the remote branches names from your git repository using command line. 
+
+There are many methods to check the remote branches  (git branches) name as follows:
+
+Method 1: Listing all remote branches name by mentioning current branch with astric symbol (*):
+```
+$   git branch -a
+```
+Output:
+```
+HP@HP-PC MINGW64 /c/xampp/htdocs/project
+$ git branch -a
+* current_branch
+    remotes/origin/HEAD -> origin/current_branch
+    remotes/origin/branch2
+    remotes/origin/branch3
+```
+
+Method 2: Listing all remote branches name:
+```
+$   git branch -r
+```
+Output:
+```
+HP@HP-PC MINGW64 /c/xampp/htdocs/project
+$ git branch -r
+    remotes/origin/HEAD -> origin/current_branch
+    remotes/origin/branch2
+    remotes/origin/branch3
+```
+Method 3: Listing all remote branches name with its origin:
+```
+$   git remote show origin
+```
+Output:
+```
+HP@HP-PC MINGW64 /c/xampp/htdocs/project
+$ git remote show origin
+remote: 
+* remote origin
+  Fetch URL: git@gitlab.com:username/project.git
+  Push  URL: git@gitlab.com:username/project.git
+  HEAD branch: current_branch
+  Remote branches:
+    current_branch  tracked
+    branch2 tracked
+```
+
+Method 4: Listing all remote branches name:
+```
+$   git branch --all
+```
+Output:
+```
+HP@HP-PC MINGW64 /c/xampp/htdocs/project
+$ git branch --all
+* current_branch
+    remotes/origin/HEAD -> origin/current_branch
+    remotes/origin/branch2
+    remotes/origin/branch3
+```
+
+Thanks for reading.
