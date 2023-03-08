@@ -374,7 +374,7 @@ you are done.!
 Thanks for reading.
 
 ---
-<a name="chapter7">
-<h1>Chapter 7 -  How to get all remote branches present in Git repository using command line.</h1>
+<a name="chapter8">
+<h1>Chapter 8 -  How to get all remote branches present in Git repository using command line.</h1>
 </a>
 
