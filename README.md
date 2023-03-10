@@ -447,4 +447,37 @@ Thanks for reading.
 <a name="chapter9">
 <h1>Chapter 9 -  How to change remote git repository using command line.</h1>
 </a>
+In this article, we will be learning about how to change remote git repository using command line. Which means How do I rename a Git repository as simple?
 
+So, Let's get started with it:
+
+
+
+Step 1: Let's check current remote git repository name as follows: 
+```
+$ git remote -v
+```
+Output:
+```
+HP@HP-PC MINGW64 /c/xampp/htdocs/project  
+$ git remote -v  
+  origin  git@gitlab.com:user/repository1.git (fetch)
+  origin  git@gitlab.com:user/repository1.git (push)
+  ```
+  
+if you use HTTPS URL repository link, you will have to provide username and password with it.
+
+
+
+Step 2: Now, lets change the remote git repository using the command line.
+```
+$ git remote set-url origin git@gitlab.com:user/repository2.git
+```
+
+if you use HTTPS URL remote repository link, then you will be asked to provide the username and password. 
+
+
+
+That's it. Now, you can start your project as flow with git pull and git push.
+
+Thanks for reading.
