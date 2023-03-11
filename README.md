@@ -14,6 +14,8 @@ Here, We will be learning about how to use Git and many other things like.
 - [Chapter 7 - How to check current git repository name using command line..](#chapter7)
 - [Chapter 8 - How to get all remote branches present in Git repository using command line](#chapter8)
 - [Chapter 9 - How to change remote git repository using command line](#chapter9)
+- [Chapter 10 - How to change remote git repository using command line](#chapter10)
+
  
 
 <a name="chapter1">
