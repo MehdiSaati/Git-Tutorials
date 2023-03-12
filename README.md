@@ -483,3 +483,8 @@ if you use HTTPS URL remote repository link, then you will be asked to provide t
 That's it. Now, you can start your project as flow with git pull and git push.
 
 Thanks for reading.
+
+---
+<a name="chapter10">
+<h1>Chapter 10-  How to add SSH Key in Gitlab.</h1>
+</a>
