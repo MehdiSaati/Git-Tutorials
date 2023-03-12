@@ -488,3 +488,45 @@ Thanks for reading.
 <a name="chapter10">
 <h1>Chapter 10-  How to add SSH Key in Gitlab.</h1>
 </a>
+
+In this article, we are going know about how to add ssh key to your GitLab account from system.
+
+
+
+Step 1: Lets go to gitlab.com and  open your profile or setting, and search SSH Keys in Sidebar, click on it.
+
+Step 2: SSH Key page opens, then you will find an option to generate one SSH Key or you can use old SSH Key.
+
+Step 3: You can create and configure ED25519 Keys for SSH - so use the following command on your CMD / Terminal / GitBash as follows:
+```
+$ ssh-keygen -t ed25519 -C "<comment>"
+```
+The -C which is quoted as comment, there you can put your email address like: -C "example@email.com" to label or name your generated SSH Key.
+
+Once the command is successful. OUTPUT will be as follows:
+```
+HP@HP-PC MINGW64 /c/xampp/htdocs/project (master)
+$ ssh-keygen -t ed25519 -C "example@email.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/HP/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/HP/.ssh/id_ed25519
+Your public key has been saved in /c/Users/HP/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:sdfgsdfgfglsdfdgufussfdsf+ARU example@email.com
+The key's randomart image is:
+```
+
+Step 4: After your SSH key generated as above, now need to copy that generated ED25519 Key known as SSH Key as follows: 
+```
+$ cat ~/.ssh/id_ed25519.pub
+```
+
+OUTPUT:
+```
+$ cat ~/.ssh/id_ed25519.pub
+ssh-ed25519 asdasdasdasdasdasd/pwb4bcc7sdfsdfsfddsfsdfsd/Jtt2adadadadsXfs example@email.com
+```
+
+Step 5: Finally we 
