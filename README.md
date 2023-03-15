@@ -535,5 +535,5 @@ Step 5: Finally we
 
 ---
 <a name="chapter11">
-<h1>Chapter 11-  How to add SSH Key in Gitlab.</h1>
+<h1>Chapter 11-  How to Rename a Git Branch.</h1>
 </a>
