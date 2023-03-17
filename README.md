@@ -16,7 +16,7 @@ Here, We will be learning about how to use Git and many other things like.
 - [Chapter 9 - How to change remote git repository using command line](#chapter9)
 - [Chapter 10 - How to add SSH Key in Gitlab](#chapter10)
 - [Chapter 11 - How to Rename a Git Branch](#chapter11)
-- [Chapter 12 - How to Rename a Git Branch](#chapter12)
+- [Chapter 12 - How to checkout to previous working git branch](#chapter12)
 
  
 
