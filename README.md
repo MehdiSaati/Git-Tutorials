@@ -538,30 +538,32 @@ Step 5: Finally we
 <a name="chapter11">
 <h1>Chapter 11-  How to Rename a Git Branch.</h1>
 </a>
+
 Git Rename Branch
 To rename a Git branch, run the following command: git branch -m <old> <new>.This will change the name of the branch you are viewing to the new name you specify.  The “old” is the name of the branch you want to rename and “new” is the new name for the branch.
 
 Command:
-
+```
 $ git branch -m <old> <new>
-
+```
 
 
 Note : You don't need to specify the old branch name if you want to rename the current branch you are in.
-
+```
 HP@HP-PC MINGW64 /c/xampp/htdocs/myproject (my-branch-name)
 $ git branch -m my-new-branch-name
+ ```
 after running the above command, your branch will look like shown below:
-
+```
 HP@HP-PC MINGW64 /c/xampp/htdocs/myproject (my-new-branch-name)
 $ 
-
+```
 
 To Check all your branch List you created:
-
+```
 HP@HP-PC MINGW64 /c/xampp/htdocs/myproject (my-branch-name)
 $ git branch
-
+```
 
 
 
