@@ -568,3 +568,9 @@ $ git branch
 
 
 Thanks for reading...
+ 
+ 
+---
+<a name="chapter12">
+<h1>Chapter 12-  How to Rename a Git Branch.</h1>
+</a>
