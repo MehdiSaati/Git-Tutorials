@@ -572,5 +572,5 @@ Thanks for reading...
  
 ---
 <a name="chapter12">
-<h1>Chapter 12-  How to Rename a Git Branch.</h1>
+<h1>Chapter 12-  How to checkout to previous working git branch.</h1>
 </a>
