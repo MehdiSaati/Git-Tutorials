@@ -583,11 +583,13 @@ In this article, you will learn how to move to previous working branch in git, w
 
 
 1. If you want to move or checkout to exactly to the previous git branch, you can follow as:
-
+```
 $ git checkout -
+ ```
 2. Here, you can checkout to your previous git branch according to your branch list.
-
+```
 $ git checkout @{-1}
+ ```
 in above command git checkout @{-1} , you can change with another number. @{-N}, N is number where need to move to branches list point or position.
 
 
