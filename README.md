@@ -611,14 +611,14 @@ In this article, you will be learn how to get a list of Git branches ordered by 
 Let's see how to get all the git branches as follows:
 
 1. get list of git branches in Descending:
-
+```
 git branch --sort=-committerdate
-
+```
 
 2. get list of git branches in Ascending:
-
+```
 git branch --sort=committerdate
-
+```
 
 
 
