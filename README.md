@@ -596,3 +596,30 @@ in above command git checkout @{-1} , you can change with another number. @{-N},
 
 
 Thanks for reading.
+ 
+  
+---
+<a name="chapter12">
+<h1>Chapter 13-  How can I get a list of Git branches ordered by most recent commit ?</h1>
+</a>
+ 
+ How to get a list of Git branches ordered by most recent commit
+
+
+In this article, you will be learn how to get a list of Git branches ordered by ascending and descending wise.
+
+Let's see how to get all the git branches as follows:
+
+1. get list of git branches in Descending:
+
+git branch --sort=-committerdate
+
+
+2. get list of git branches in Ascending:
+
+git branch --sort=committerdate
+
+
+
+
+Thanks for reading.
