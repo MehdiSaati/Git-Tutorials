@@ -601,7 +601,7 @@ Thanks for reading.
  
   
 ---
-<a name="chapter12">
+<a name="chapter13">
 <h1>Chapter 13-  How can I get a list of Git branches ordered by most recent commit ?</h1>
 </a>
  
@@ -625,3 +625,7 @@ git branch --sort=committerdate
 
 
 Thanks for reading.
+---
+<a name="chapter14">
+<h1>Chapter 14-  How can I get a list of Git branches ordered by most recent commit ?</h1>
+</a>
