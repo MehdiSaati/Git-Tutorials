@@ -627,5 +627,5 @@ git branch --sort=committerdate
 Thanks for reading.
 ---
 <a name="chapter14">
-<h1>Chapter 14-  How can I get a list of Git branches ordered by most recent commit ?</h1>
+<h1>Chapter 14-  How to check or set username and email address in git using cmd</h1>
 </a>
