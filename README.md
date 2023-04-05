@@ -635,12 +635,13 @@ In this article, you will be learning how to set or check the username and email
 
 To Check username and email address of the specific git repository/folder (current workspace).
 Check username
-
+```
 git config user.name
+```
 Check email address
-
+```
 git config user.email
-
+```
 
 To Set username and email address
 There are 2 ways to set username and email address. So, 1st is current workspace or a project. 2nd is globally (to all the folders/repository).
@@ -648,25 +649,29 @@ There are 2 ways to set username and email address. So, 1st is current workspace
 
 
 1. Let's Set username or email for current workspace (specific repository) 
+ 
 Set / change username
-
+```
 git config user.name "your_name"
+ ```
 Set / change your email
-
+```
 git config user.email "your@email.com"
-
+```
 
 2. Let's Set username or email globally for all projects.
 Check username
-
+```
 git config --global user.name "your_username"
+ ```
 Check email address
-
+```
 git config --global user.email "your_email"
-
+```
 
 List all variables set in the config file, along with their values.
+ ```
 git config --list
-
+```
 
 Thanks for reading.
